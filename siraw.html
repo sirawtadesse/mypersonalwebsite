@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+            personal website
+        </title>
+        <link rel="stylesheet" href="sersho.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        
+        <!-- for icon-->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">ser<span>sho.</span></a></div>
+            <ul class="menu">
+                
+                <li><a href="#home" >home</a></li>
+                <li><a href="#about"class="menu-b">about</a></li>
+                
+                <li><a href="#photo"class="menu-b">Photo</li>
+                <li><a href="#video"class="menu-b">Video</a></li>
+            
+                <li><a href="#contact"class="menu-b">contact</a></li>
+            </ul>
+            
+            <div class="menu-b">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </div>
+            </div>
+        </nav>
+        <!--home section start-->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">hy,my name is</div>
+                    <div class="text-2">Siraw Tadesse</div>
+                    <div class="text-3"><span>i am a student</span></div>
+                    <a href="img/s11.jpg">Here me</a>    
+                </div>
+            </div>
+        </section>
+        <!-- about section start-->
+        <section class="about" id="about">
+            <div class="max-width">
+            <h2 class="title" style="color: white;">About me</h2>
+           
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="img/s6.jpg" alt="">
+                    </div>
+                     <div class="column right">
+                        <div class="text" style="color: white;">i am siraw and i am<span> student</span></div>
+                        <p style="color: white;"> 
+                            Hello there, I am a <strong> bachelor degree student at addis ababa university</strong>.i am currently a third year student of informatiion system.
+                            I am <b>interested in front end web design and development!!!</b>
+                         </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- photogallery section start-->
+       <section class="photo" id="photo">
+        <div class="max-width">
+        <h1 class="title" style="color:blue">photogallerys</h1>
+        <div class="pro">
+        <div class="img-gallery">
+            <div class="img-container">
+                <img id="imageBox" src="img/s3.jpg">
+            </div><br>
+            <div>
+<h1 style="text-align: center; color: red;">Look The Changes On the Left</h1>
+
+            </div>
+              <img src="img/s4.jpg" onclick="myFunction(this)">
+            
+              <img src="img/s5.jpg" onclick="myFunction(this)">
+    
+              <img src="img/s7.jpg" onclick="myFunction(this)">
+            
+              <img src="img/s8.jpg" onclick="myFunction(this)">
+
+            <img src="img/s9.jpg" onclick="myFunction(this)">s
+
+             <img src="img/s10.jpg" onclick="myFunction(this)">
+
+            </div>
+        </div>
+          </div>
+        </section>
+        <!-- videogallery section-->
+        <section class="video"  id="video">
+            <h2 class="title" style="color: white;">videogallerys</h2>
+            <div class="container">
+            <div class=" main-video">
+                <div class="video">
+                  <video src="vdo/v1.mkv" controls muted autoplay></video>
+            <h3 class="title"> video 1</h3>
+                </div>
+            </div>
+            <div class="video-list">
+                
+                
+                <div class="vid active">
+                    <video src="vdo/v2.mkv" controls muted autoplay></video>
+                    <h3 class="title"> video 2</h3>
+                </div>
+                <div class="vid">
+                    <video src="vdo/v3.mkv" controls muted autoplay></video>
+                    <h3 class="title"> video 3</h3>
+                </div>
+                <div class="vid">
+                    <video src="vdo/v4.mkv" controls muted autoplay></video>
+                    <h3 class="title"> video 4</h3>
+                </div>
+                <div class="vid">
+                    <video src="vdo/v5.mkv" controls muted autoplay></video>
+                    <h3 class="title"> video 5</h3>
+                </div>
+            </div>
+        </section>
+      <!-- contact section start-->
+        <section class ="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title" style="color: white;">contact me</h2>
+                
+                    <div class="contact-content">
+                        <div class="column left">
+                    <div class="text" style="color: white;">Get in touch</div>
+                    <p></p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Siraw Tadesse</div>
+                            </div>
+                        </div>
+                       
+                        <div class="row">
+                            <a href="#" class="fas fa-map-marker-alt"></a>
+                            <div class="info">
+                                <div class="head">Address</div> 
+                                <div class="sub-title">addis ababa</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href ="# "class="fas fa-envelope"></a>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">daveyetadulij21@gmail.com</div>
+                            </div>
+                            
+                        </div>      
+                </div>
+                </div>  
+                    <div class="column right">
+                        <div class="text" style="color: white;">Message me</div>
+                        <form id="fn" action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="f" placeholder="Name" onkeydown="validation()" required>
+
+                            </div>
+                        
+                            <div class="field email">
+                                <input type="email" placeholder="Email address" id="l" onkeydown="validation()" required>
+                        </div>
+                        </div>
+                        <div class="field ">
+                            <input type="text"  id="e"placeholder="Subject" required>
+                        </div>
+                        <div class="field comment ">
+                            <input type="text"  id="m"placeholder="put your comment here..." required>
+                        </div>
+                        <div class="button">
+                            <button type="submit" onclick="send()">send message</button>
+                        
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer section create by-->
+        <footer>
+            <span> created by<a href="#">codingsiraw</a> | <span class="far fa-copyright"></span> 2023 all rights resereved</span>
+        </footer>
+        <script src="script.js"></script>
+
+    </body>
+     
+</html>
